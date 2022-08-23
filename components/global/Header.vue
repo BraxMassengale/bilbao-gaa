@@ -1,19 +1,6 @@
 <template>
-  <nav class="fixed inset-x-0 top-0 z-40 px-3 pt-3 scrim-bg" aria-label="Main Menu">
-    <ul class="flex">
-      <li class="flex-1">
-        <nuxt-link class="block btn" to="/">Home</nuxt-link>
-      </li>
-      <li class="flex-1 ml-2">
-        <nuxt-link class="block btn" to="/blog">Blog</nuxt-link>
-      </li>
-      <li class="flex-1 ml-2">
-        <nuxt-link class="block btn" to="/projects">Projects</nuxt-link>
-      </li>
-      <li class="flex-1 ml-2">
-        <nuxt-link class="block btn" to="/announcements">Announcements</nuxt-link>
-      </li>
-    </ul>
+  <nav class="fixed inset-x-0 top-0 z-40 px-3 pt-3 bg-green-600" aria-label="Main Menu">
+    <!-- TODO: Add Logo -->
   </nav>
 </template>
 

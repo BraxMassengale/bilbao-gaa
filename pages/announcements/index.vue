@@ -1,6 +1,9 @@
 <template>
   <main>
     <section v-if="posts" class="w-full max-w-5xl mx-auto">
+      <nav class="mb-8" aria-label="go back">
+        <router-back class="block" />
+      </nav>
       <h1 class="title">Announcements</h1>
       <posts post-type="announcements" :amount="10" />
     </section>
