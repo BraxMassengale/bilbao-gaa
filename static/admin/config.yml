@@ -59,6 +59,27 @@ collections:
       - { label: 'Title', name: 'title', widget: 'string', required: true }
       - { label: 'Description', name: 'description', widget: 'string', required: false }
       - { label: 'Body', name: 'body', widget: 'markdown', required: false }
+  - name: 'announcements'
+    label: 'Announcements'
+    folder: 'content/announcements'
+    create: true
+    format: 'frontmatter'
+    slug: '{{fields.createdAt}}-{{slug}}'
+    # editor:
+    #   preview: true
+    fields:
+      - {
+          label: 'Created Date',
+          name: 'createdAt',
+          widget: 'datetime',
+          format: 'YYYY-MM-DD',
+          date_format: 'YYYY-MM-DD',
+          time_format: false,
+        }
+      - { label: 'Title', name: 'title', widget: 'string', required: true }
+      - { label: 'Description', name: 'description', widget: 'string', required: false }
+      - { label: 'Location', name: 'location', widget: 'string', required: false }
+      - { label: 'Time', name: 'time', widget: 'string', required: false }
   - name: 'projects'
     label: 'Projects'
     label_singular: 'Project'
@@ -87,23 +108,3 @@ collections:
           summary: '{{fields.image}}',
           field: { label: 'Image', name: 'image', widget: 'image' },
         }
-   - name: 'announcements'
-    label: 'Announcements'
-    folder: 'content/announcements'
-    create: true
-    format: 'frontmatter'
-    slug: '{{fields.createdAt}}-{{slug}}'
-    # editor:
-    #   preview: true
-    fields:
-      - {
-          label: 'Created Date',
-          name: 'createdAt',
-          widget: 'datetime',
-          format: 'YYYY-MM-DD',
-          date_format: 'YYYY-MM-DD',
-          time_format: false,
-        }
-      - { label: 'Title', name: 'title', widget: 'string', required: true }
-      - { label: 'Description', name: 'description', widget: 'string', required: false }
-      - { label: 'Body', name: 'body', widget: 'markdown', required: false }
