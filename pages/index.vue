@@ -6,8 +6,8 @@
     </section>
 
     <section class="mt-8">
-      <h3 class="max-w-5xl mx-auto text-primary-600 dark:text-primary-400">Latest blog post</h3>
-      <posts post-type="blog" :amount="1" />
+      <h3 class="max-w-5xl mx-auto text-primary-600 dark:text-primary-400">Latest announcements</h3>
+      <posts post-type="announcements" :amount="1" />
     </section>
   </main>
 </template>
