@@ -49,7 +49,7 @@ export default {
     postType: {
       type: String,
       default: 'blog',
-      validator: (val) => ['blog', 'projects', 'announcements'].includes(val),
+      validator: (val) => ['blog', 'projects', 'announcements', 'events'].includes(val),
     },
     amount: {
       // ? https://content.nuxtjs.org/fetching#limitn
