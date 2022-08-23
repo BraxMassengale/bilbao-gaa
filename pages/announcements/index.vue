@@ -12,7 +12,7 @@ export default {
   async asyncData({ $content, error }) {
     let posts
     try {
-      posts = await $content('announcement').fetch()
+      posts = await $content('announcements').fetch()
     } catch (e) {
       error({ message: 'Announcement posts not found' })
     }

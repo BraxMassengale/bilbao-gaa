@@ -25,7 +25,7 @@ export default {
   async asyncData({ $content, params, error }) {
     let post
     try {
-      post = await $content('announcement', params.announcement).fetch()
+      post = await $content('announcements', params.announcement).fetch()
     } catch (e) {
       error({ message: 'Announcement post not found' })
     }
