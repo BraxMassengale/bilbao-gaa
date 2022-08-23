@@ -1,8 +1,8 @@
 {
-  "name": "ntn-boilerplate",
-  "version": "2.1.4",
-  "description": "Nuxt-Tailwind-NetlifyCMS boilerplate",
-  "author": "Sven Parker <hello+dev@svenparker.com> (https://svenparker.com)",
+  "name": "bilbao-gaa",
+  "version": "1.0.0",
+  "description": "A webpage for the Euskadi Gaels, a Gaelic Footlball club from Bilbao, Basque Country, Spain",
+  "author": "Braxton Massengale <contact@braxtonmassengale.com> (https://braxtonmassengale.com)",
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Knogobert/ntn-boilerplate#readme"
+    "url": "https://github.com/BraxMassengale/bilbao-gaa#readme"
   },
   "license": "MIT",
   "dependencies": {
